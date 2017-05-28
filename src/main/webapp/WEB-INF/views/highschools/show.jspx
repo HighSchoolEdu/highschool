@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_highschool_entity_HighSchool" object="${highschool}" path="/highschools" z="wgHdJEmychUgZg/PbksaiDR1zzw=">
+        <field:display field="demo" id="s_com_highschool_entity_HighSchool_demo" object="${highschool}" z="NiJpbEuzMMoGuC2c7gy58PkMD08="/>
+        <field:display field="schoolCode" id="s_com_highschool_entity_HighSchool_schoolCode" object="${highschool}" z="E7Eneg9pFlSUX2PFx8mmW1dicPI="/>
+        <field:display field="schollName" id="s_com_highschool_entity_HighSchool_schollName" object="${highschool}" z="4/Np0GqcsWHCZFp3ehTkSdq2iFM="/>
+        <field:display field="address" id="s_com_highschool_entity_HighSchool_address" object="${highschool}" z="GenrUvJpfltFDKUgfmWAxHruubs="/>
+        <field:display field="phoneNo" id="s_com_highschool_entity_HighSchool_phoneNo" object="${highschool}" z="Bbr6m6WW9vkchNaISKGzq0oOIWk="/>
+        <field:display field="fax" id="s_com_highschool_entity_HighSchool_fax" object="${highschool}" z="Tz6jsHOgIgp3wbcR5yfWhNK9NNg="/>
+        <field:display field="httpUrl" id="s_com_highschool_entity_HighSchool_httpUrl" object="${highschool}" z="kDu8/1AQT2I7bpuxrGcb82jz0oM="/>
+        <field:display field="category" id="s_com_highschool_entity_HighSchool_category" object="${highschool}" z="8E+h7/GAtWlg27377YtAQR2JYq4="/>
+        <field:display field="gender" id="s_com_highschool_entity_HighSchool_gender" object="${highschool}" z="tHGmtRDLXjL+I3kKyz4jDlibraI="/>
+        <field:display field="earObstacle" id="s_com_highschool_entity_HighSchool_earObstacle" object="${highschool}" z="M73LEAwruCEdkUQ5Enk4EOR0FLs="/>
+        <field:display field="listenObstacle" id="s_com_highschool_entity_HighSchool_listenObstacle" object="${highschool}" z="wtX/mEs2TVbArkSGZku6xr9WXas="/>
+        <field:display field="lambBrainObstacle" id="s_com_highschool_entity_HighSchool_lambBrainObstacle" object="${highschool}" z="x4mzIS1BDuFN8N9tnvlQEyF9vI0="/>
+        <field:display field="emotionObstacle" id="s_com_highschool_entity_HighSchool_emotionObstacle" object="${highschool}" z="srxtAFs8QpfGRTGtx38XrYIwhFk="/>
+        <field:display field="learnObstacle" id="s_com_highschool_entity_HighSchool_learnObstacle" object="${highschool}" z="dJYBXcUFdL7hQpFnw0o/oLAA/RU="/>
+        <field:display field="autism" id="s_com_highschool_entity_HighSchool_autism" object="${highschool}" z="Bu3YfMD96TA+nqjppt1Du8VZkuM="/>
+        <field:display field="otherObstacle" id="s_com_highschool_entity_HighSchool_otherObstacle" object="${highschool}" z="BM1eckmlgaTznKxXpeRn6SnwGQA="/>
+        <field:display field="noCategory" id="s_com_highschool_entity_HighSchool_noCategory" object="${highschool}" z="SfoEep3VGux8NFH45NebXmso1SE="/>
+    </page:show>
+</div>

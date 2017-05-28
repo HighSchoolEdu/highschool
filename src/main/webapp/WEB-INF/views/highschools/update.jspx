@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_highschool_entity_HighSchool" modelAttribute="highSchool" path="/highschools" versionField="none" z="AOy1uf1kjbPtttE9MwcKRDTDoEA=">
+        <field:input field="demo" id="c_com_highschool_entity_HighSchool_demo" z="qvYfcSpGa2QEre4fpTzpCqm4i3s="/>
+        <field:input field="schoolCode" id="c_com_highschool_entity_HighSchool_schoolCode" validationMessageCode="field_invalid_integer" z="5AlY16RVx+13u72lAlGszE3CDQs="/>
+        <field:input field="schollName" id="c_com_highschool_entity_HighSchool_schollName" z="Z1Ll1L1iR6N6Je+mf0R731+wPfc="/>
+        <field:input field="address" id="c_com_highschool_entity_HighSchool_address" z="CZDGFRm27BCJ2qpoO5p2cHqXtNk="/>
+        <field:input field="phoneNo" id="c_com_highschool_entity_HighSchool_phoneNo" z="Q3mtRdp4BCnKm/vBEHmP7eV3g4U="/>
+        <field:input field="fax" id="c_com_highschool_entity_HighSchool_fax" z="Q3MocHJlB9ip65pisXk7tJYSSVQ="/>
+        <field:input field="httpUrl" id="c_com_highschool_entity_HighSchool_httpUrl" z="Kq6cr1uIyMYfjgEPUS9aeVxUm+8="/>
+        <field:input field="category" id="c_com_highschool_entity_HighSchool_category" z="TtWtRKgh4J+NawY7YmFgfZiLjBg="/>
+        <field:input field="gender" id="c_com_highschool_entity_HighSchool_gender" z="Az76KJxo677LZHvxXqpUvPZSGXc="/>
+        <field:input field="earObstacle" id="c_com_highschool_entity_HighSchool_earObstacle" validationMessageCode="field_invalid_integer" z="fyfRqgeTvRWsKiSucj6T1Z0WEcU="/>
+        <field:input field="listenObstacle" id="c_com_highschool_entity_HighSchool_listenObstacle" validationMessageCode="field_invalid_integer" z="o+pqmUUrVCQZ654uY3BG+XzHDW0="/>
+        <field:input field="lambBrainObstacle" id="c_com_highschool_entity_HighSchool_lambBrainObstacle" validationMessageCode="field_invalid_integer" z="ELbH9RLGXUHkXArVff+bMjUAeFM="/>
+        <field:input field="emotionObstacle" id="c_com_highschool_entity_HighSchool_emotionObstacle" validationMessageCode="field_invalid_integer" z="C+hHIHfCWmlusYG3VAp24HSQMq8="/>
+        <field:input field="learnObstacle" id="c_com_highschool_entity_HighSchool_learnObstacle" validationMessageCode="field_invalid_integer" z="dc02aeYaZ3oNH34gQ5WJlo0CZvA="/>
+        <field:input field="autism" id="c_com_highschool_entity_HighSchool_autism" validationMessageCode="field_invalid_integer" z="VMTEmk99dj3SLcO7LmxhgeuwVO8="/>
+        <field:input field="otherObstacle" id="c_com_highschool_entity_HighSchool_otherObstacle" validationMessageCode="field_invalid_integer" z="ya2FRvN1lGYddA/g9gGjsoLUNco="/>
+        <field:input field="noCategory" id="c_com_highschool_entity_HighSchool_noCategory" validationMessageCode="field_invalid_integer" z="vwfPy3PvHqPpjBxjdb8FO58pDgk="/>
+    </form:update>
+</div>

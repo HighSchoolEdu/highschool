@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_highschool_entity_HighSchool" items="${highschools}" z="g0lPpwRDmYCdGhaS+62DBjrfZ5M=">
+        <table:table data="${highschools}" id="l_com_highschool_entity_HighSchool" path="/highschools" z="X0mNPYl3mYMgMPc8i4XafIrPoj0=">
+            <table:column id="c_com_highschool_entity_HighSchool_demo" property="demo" z="bEWm8hDDW4YDr092v0R7g2Z1x5E="/>
+            <table:column id="c_com_highschool_entity_HighSchool_schoolCode" property="schoolCode" z="pskCAPeIlyC+v9pHkI47yOOByHs="/>
+            <table:column id="c_com_highschool_entity_HighSchool_schollName" property="schollName" z="YLp3rI+MxjCXCViowYat5HA/ffo="/>
+            <table:column id="c_com_highschool_entity_HighSchool_address" property="address" z="oxwNj1WEyFeHExskzi5igvnCSSg="/>
+            <table:column id="c_com_highschool_entity_HighSchool_phoneNo" property="phoneNo" z="HqYzEFKWr8ukNOT57HYodabFztQ="/>
+            <table:column id="c_com_highschool_entity_HighSchool_fax" property="fax" z="YH1ZWJKPjak99ZkTY6s7PbtSrIE="/>
+        </table:table>
+    </page:list>
+</div>
