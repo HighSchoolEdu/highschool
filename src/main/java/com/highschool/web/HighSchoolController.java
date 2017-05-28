@@ -31,11 +31,11 @@ public class HighSchoolController {
         stringList.put("earObstacle","視覺障礙");
         stringList.put("listenObstacle","聽語障礙");
         stringList.put("lambBrainObstacle","肢障腦麻病弱");
-        stringList.put("emotion","情緒行為障礙");
+        stringList.put("emotionObstacle","情緒行為障礙");
         stringList.put("learnObstacle","學習障礙");
         stringList.put("autism","自閉症");
         stringList.put("otherObstacle","其他障礙");
-        stringList.put("normal","普通科");
+        stringList.put("normal","不分類");
         uiModel.addAttribute("obstacles",stringList);
         uiModel.addAttribute("categorys",listString);
 
@@ -46,11 +46,9 @@ public class HighSchoolController {
     @RequestMapping(value = "/listResult",produces = "text/html",method = {RequestMethod.POST,RequestMethod.GET})
     public String listCondition(@RequestParam(value = "category", required = false) String category,@RequestParam(value = "obstacle", required = false) String obstacle, Model uiModel) {
 
-
+            System.out.println("obstacle : "+obstacle);
             List<HighSchool> highSchools=HighSchool.findHighSchoolByCondition(category,obstacle);
-            for(HighSchool highSchool:highSchools){
-                System.out.println(highSchool.getAddress());
-            }
+
             uiModel.addAttribute("highschools", highSchools);
 
         return "highschools/listOb";

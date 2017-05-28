@@ -29,35 +29,22 @@ public class HighSchool {
         if(!"".equals(obstacle) && obstacle!=null) {
             if("earObstacle".equals(obstacle.trim())){
                  jpaQuery = jpaQuery + " and o.earObstacle !=0 and o.earObstacle !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("listenObstacle".equals(obstacle.trim())){
+            }else if("listenObstacle".equals(obstacle.trim())) {
                 jpaQuery = jpaQuery + " and o.listenObstacle !=0 and o.listenObstacle !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("lambBrainObstacle".equals(obstacle.trim())){
+            }else if("lambBrainObstacle".equals(obstacle.trim())){
                 jpaQuery = jpaQuery + " and o.lambBrainObstacle !=0 and o.lambBrainObstacle !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("emotionObstacle".equals(obstacle.trim())){
+            }else if("emotionObstacle".equals(obstacle.trim())) {
                 jpaQuery = jpaQuery + " and o.emotionObstacle !=0 and o.emotionObstacle !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("learnObstacle".equals(obstacle.trim())){
+            }else if("learnObstacle".equals(obstacle.trim())){
                 jpaQuery = jpaQuery + " and o.learnObstacle !=0 and o.learnObstacle !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("autism".equals(obstacle.trim())){
+            }else if("autism".equals(obstacle.trim())){
                 jpaQuery = jpaQuery + " and o.autism !=0 and o.autism !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("otherObstacle".equals(obstacle.trim())){
+            }else if("otherObstacle".equals(obstacle.trim())){
                 jpaQuery = jpaQuery + " and o.otherObstacle !=0 and o.otherObstacle !=null ";
-            }
-        }else if(!"".equals(obstacle) && obstacle!=null) {
-            if("normal".equals(obstacle.trim())){
+            }else if("normal".equals(obstacle.trim())){
                 jpaQuery = jpaQuery + " and o.noCategory !=0 and o.noCategory !=null ";
             }
+
         }
 
 
